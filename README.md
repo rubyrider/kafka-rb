@@ -1,11 +1,11 @@
-# Kafka::Rb
+# Kafka::Ruby
 [![Ruby](https://github.com/rubyrider/kafka-rb/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/rubyrider/kafka-rb/actions/workflows/ruby.yml)
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kafka-rb'
+gem 'kafka-ruby'
 ```
 
 And then execute:
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install kafka-rb
+    $ gem install kafka-ruby
 
 ## Usage
 
