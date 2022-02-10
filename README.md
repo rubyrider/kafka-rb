@@ -1,5 +1,5 @@
 # Kafka::Rb
-
+[![Ruby](https://github.com/rubyrider/kafka-rb/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/rubyrider/kafka-rb/actions/workflows/ruby.yml)
 ## Installation
 
 Add this line to your application's Gemfile:
