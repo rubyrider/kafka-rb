@@ -9,5 +9,6 @@ loader.setup
 module Kafka
   # The ruby scope for the kafka ruby wrapper
   module Ruby
+    autoload :FFI, File.expand_path('ruby/f_f_i', __dir__)
   end
 end
