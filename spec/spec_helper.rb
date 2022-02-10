@@ -2,6 +2,16 @@
 
 require 'bundler/setup'
 require 'kafka/rb'
+require 'simplecov'
+
+SimpleCov.start do
+  enable_coverage :branch
+
+  primary_coverage :branch
+
+  add_filter "/spec/"
+  add_filter "/test/"
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
