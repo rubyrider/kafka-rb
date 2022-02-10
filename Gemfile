@@ -6,7 +6,13 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rake', '~> 12.0'
-gem 'rspec', '~> 3.0'
-gem 'rubocop', '~> 1.25', require: false
-gem 'simplecov', require: false, group: :test
 
+group :test, :development do
+  gem 'rspec', '~> 3.0'
+  gem 'rubocop', '~> 1.25', require: false, group: %i[test development]
+  gem 'simplecov', require: false, group: %i[test development]
+  gem 'zeitwerk', require: false, group: %i[test development]
+end
+
+# native libraries
+gem 'ffi'

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'kafka/rb'
+require 'kafka/ruby'
 require 'simplecov'
 
 SimpleCov.start do
@@ -9,8 +9,8 @@ SimpleCov.start do
 
   primary_coverage :branch
 
-  add_filter "/spec/"
-  add_filter "/test/"
+  add_filter '/spec/'
+  add_filter '/test/'
 end
 
 RSpec.configure do |config|
