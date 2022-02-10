@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative 'lib/kafka/rb/version'
+require_relative 'lib/kafka/ruby/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'kafka-rb'
-  spec.version       = Kafka::Rb::VERSION
+  spec.name          = 'kafka-ruby'
+  spec.version       = Kafka::Ruby::VERSION
   spec.authors       = ['Irfan Ahmed']
   spec.email         = ['irfandhk@gmail.com']
 
